@@ -1,8 +1,27 @@
 aid: tutor-intelligence
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tutor-intelligence.png
 name: Tutor Intelligence
-description: Tutor Intelligence is a company surfaced as a portfolio company of union-square-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Tutor Intelligence builds AI-powered robotic workers for industrial and logistics
+  operations, delivered as robots-as-a-service. Its flagship Cassie palletizing robot
+  handles material-handling tasks — palletizing, depalletizing, and case picking — in
+  warehouses and factories without facility retrofits, and a humanoid robot, Sonny, is
+  slated for late 2026. The company pairs on-robot autonomy with a human-in-the-loop
+  teleoperation and data model, priced per robot-hour with no long-term contracts, and
+  is backed by Union Square Ventures. No public developer API, SDK, or documentation
+  surface is published as of this profiling; the company's public GitHub organization
+  hosts internal tooling and open-source forks rather than a first-party product API.
 url: https://raw.githubusercontent.com/api-evangelist/tutor-intelligence/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Robotics
+- Automation
+- Warehouse Automation
+- Logistics
+- Manufacturing
+- Artificial Intelligence
+- Robots-as-a-Service
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +48,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/tutor-intelligence-domain-security.yml
 - type: Website
   url: https://tutorintelligence.com
+- type: Blog
+  url: https://tutorintelligence.com/blog
+- type: Pricing
+  url: https://tutorintelligence.com/pricing
+- type: PrivacyPolicy
+  url: https://tutorintelligence.com/privacy
+- type: Login
+  url: https://app.tutorintelligence.com/login
+- type: Support
+  url: https://tutorintelligence.com/contact
+- type: GitHubOrganization
+  url: https://github.com/tutorintelligence
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
