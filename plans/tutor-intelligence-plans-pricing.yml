@@ -1,0 +1,41 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://tutorintelligence.com/pricing
+sources:
+- https://tutorintelligence.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: usage-other
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Robots-as-a-service pricing page; headline 'From $14 an hour, with nothing to buy and no long-term
+  contract.' Hourly rate range plus minimums/deposit/implementation fee stated; per-pick pricing quoted
+  relative to customer's existing cost. Outright purchase available via quote. Estimates stated as 'not
+  committed pricing'.
+plan_count: 3
+currency: USD
+plans:
+- name: Hourly pricing — Palletizing · Depalletizing
+  price_text: $14–18 per robot-hour
+  currency: USD
+  period: per-use
+  unit: robot-hour
+  included_quota: 'The rate is all-in: support, maintenance, and every model improvement we ship.'
+  overage: Minimum 80 hours per month, $8K refundable deposit and $10K flat implementation.
+- name: Per-pick pricing — Case pick · Each pick
+  price_text: 10–50% below your cost per pick
+  period: per-use
+  unit: pick
+  included_quota: We quote a cost per pick by simulating your volume
+- name: Purchase outright
+  price_text: Talk to us and we'll price it for your operation.
+  period: one-time
+  unit: robot
+  included_quota: low-cost annual service plan with same support, maintenance, and model improvements
