@@ -39,3 +39,35 @@ plans:
   period: one-time
   unit: robot
   included_quota: low-cost annual service plan with same support, maintenance, and model improvements
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - metered
+  units:
+  - compute
+  plans:
+  - name: Hourly pricing — Palletizing · Depalletizing
+    access: other
+    model: metered
+    model_how: derived
+    units:
+    - compute
+    periods:
+    - other
+  - name: Per-pick pricing — Case pick · Each pick
+    access: other
+    model: unstated
+    model_how: derived
+    units:
+    - other
+    periods:
+    - other
+  - name: Purchase outright
+    access: other
+    model: unstated
+    model_how: derived
+    units:
+    - other
+    periods:
+    - one-time
